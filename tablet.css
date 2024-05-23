@@ -1,0 +1,275 @@
+*{
+    margin:o;
+    padding:o;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.25rem;
+}
+.header{
+    position:fixed;
+ background-color: white;
+    top:0px;
+    width:100%;
+    height: 70px;
+    left:0px;
+    z-index: 1000;
+}
+
+ul{
+    position: fixed;
+    top:15px;
+    left:300px;
+    list-style-type: none;
+    overflow: hidden;
+    z-index: 1000;
+    
+
+}
+li{
+    float:left;
+}
+li a:hover{
+    background-color: black;
+}
+li a{
+    display:block;
+    padding:0.938rem;
+    text-decoration: none;
+    color:aqua;
+}
+/* for my body image */
+.back{
+    position:relative;
+    top:100px;
+    height:600px;
+
+}
+/* what we do */
+.what{
+    position: relative;
+    height:500px;
+
+
+}
+p{
+    font-size: 1.375rem;
+}
+.do{
+    position:absolute;
+    top:30px;
+    left:500px;
+    font-size: 2.5rem;
+}
+.solar{
+    position:absolute;
+    top:100px;
+    left:50px;
+    text-align: center;
+}
+.wifi{
+    position:absolute;
+    top:100px;
+    right:50px;
+    text-align: center;
+}
+/* our team */
+.team{
+    position: relative;
+    height:350px;
+    background-color: silver;
+}
+.our{
+    position:absolute;
+    top:30px;
+    left:500px;
+}
+.kendall{
+    position:absolute;
+    top:150px;
+    left:150px;
+    text-align: center;
+}
+button{
+    background-color:aquamarine;
+    padding: 10px;
+    color:white;
+    border-style: none;
+}
+button:hover{
+    background-color:red;
+}
+ a{
+    color:white;
+    text-decoration: none;
+
+}
+.ifeanyi{
+    position:absolute;
+    top:150px;
+    left:400px;
+    text-align: center;
+
+
+}
+.ikenna{
+    position:absolute;
+    top:150px;
+    left:650px;
+    text-align: center;
+
+
+}
+.amanosi{
+    position:absolute;
+    top:150px;
+    right:150px;
+    text-align: center;
+
+
+}
+/* investors */
+.investors{
+    position: relative;
+    height:1250px;
+}
+.invest{
+    position: absolute;
+    top:30px;
+    left:500px;
+}
+.comb{
+    position:absolute;
+    top:200px;
+    left:50px;
+}
+.social{
+    position:absolute;
+    top:150px;
+    left:350px;
+}
+.social2{
+    position:absolute;
+    top:200px;
+    left:500px;
+}
+
+.venture{
+    position:absolute;
+    top:150px;
+    left:800px;
+}
+.capital{
+    position:absolute;
+    top:180px;
+    text-align: center;
+    right:150px;
+}
+.work{
+    position: absolute;
+    top:450px;
+    left:500px;
+}
+.frame{
+    position:absolute;
+    top:600px;
+    left:60px;
+    width:400px;
+}
+/* contact */
+.contact{
+    position:relative;
+    background-color: silver;
+    height:800px;
+}
+.cont{
+    position:absolute;
+     top:40px;
+    left:550px;
+}
+.monday{
+    position: absolute;
+    top:90px;
+    left:450px;
+
+}
+.address{
+    position:absolute;
+    top:450px;
+    left:50px;
+}
+.text{
+    font-size: 1.313rem;
+}
+.telephone{
+    position: absolute;
+    top:200px;
+    right:100px;
+}
+/* footer */
+footer{
+    position:relative;
+    height:480px;
+    color: white;
+    background-color: black;
+}
+.tizeti{
+    position:absolute;
+    top:30px;
+    left:500px;
+
+
+}
+.for{
+    position:absolute;
+    top:90px;
+    left:400px;
+}
+.text2{
+    font-size: 1.563rem;
+    text-align: center;
+}
+.twit{
+    position: absolute;
+    top:200px;
+    left:600px;
+}
+.fac{
+    position: absolute;
+    top:200px;
+    left:650px;
+}
+.lin{
+    position: absolute;
+    top:200px;
+    left:700px;
+}
+form{
+    position: absolute;
+    top:250px;
+    left:420px;
+
+}
+.email{
+    width:500px;
+    height: 25px;
+    border-style: none;
+}
+.subs{
+    position:absolute;
+    top:300px;
+    left:600px;
+}
+.copy{
+    position:absolute;
+    top:420px;
+    left:80px;
+}
+.inst{
+    position:absolute;
+    top:420px;
+    right:100px;
+}
