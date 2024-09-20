@@ -8,14 +8,14 @@
  background-color: white;
     top:0px;
     width:100%;
-    height: 70px;
+    height:100px;
     left:0px;
     z-index: 1000;
 }
 
 ul{
     position: fixed;
-    top:15px;
+    top:0;
     left:300px;
     list-style-type: none;
     overflow: hidden;
@@ -28,10 +28,12 @@ li{
 }
 li a:hover{
     background-color: black;
+   padding: 10px 16px;
 }
 li a{
     display:block;
     padding:20px;
+    font-weight: bolder;
     text-decoration: none;
     color:aqua;
 }
@@ -39,13 +41,17 @@ li a{
 .back{
     position:relative;
     top:100px;
-    height:600px;
+    height:620px;
 
 }
 /* what we do */
 .what{
     position: relative;
-    height:500px;
+    display: flex;
+    
+    margin-left: 4rem;
+    gap:15rem;
+    height:480px;
 
 
 }
@@ -53,38 +59,39 @@ p{
     font-size: 1.375rem;
 }
 .do{
-    position:absolute;
-    top:30px;
-    left:500px;
+    top:2rem;
+    position: relative;
+    
+    text-align: center;
+    
     font-size: 2.5rem;
 }
 .solar{
-    position:absolute;
-    top:100px;
-    left:50px;
+    align-self: flex-start;
+   
     text-align: center;
 }
 .wifi{
-    position:absolute;
-    top:100px;
-    right:50px;
     text-align: center;
+    
 }
 /* our team */
 .team{
     position: relative;
     height:350px;
+  gap:6rem;
     background-color: silver;
 }
 .our{
-    position:absolute;
-    top:30px;
-    left:500px;
+ 
+ 
+    text-align: center;
+
+
+
 }
 .kendall{
-    position:absolute;
-    top:150px;
-    left:150px;
+    
     text-align: center;
 }
 button{
@@ -102,25 +109,19 @@ button:hover{
 
 }
 .ifeanyi{
-    position:absolute;
-    top:150px;
-    left:400px;
+   
     text-align: center;
 
 
 }
 .ikenna{
-    position:absolute;
-    top:150px;
-    left:650px;
+    
     text-align: center;
 
 
 }
 .amanosi{
-    position:absolute;
-    top:150px;
-    right:150px;
+    
     text-align: center;
 
 
@@ -128,49 +129,49 @@ button:hover{
 /* investors */
 .investors{
     position: relative;
-    height:1250px;
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    flex-wrap: wrap;
+   top:14rem;
+    height:60vh;
 }
 .invest{
+    top:-9rem;
     position: absolute;
-    top:30px;
-    left:500px;
+    
 }
 .comb{
-    position:absolute;
-    top:200px;
-    left:50px;
+    position:relative;
 }
+    
 .social{
-    position:absolute;
-    top:150px;
-    left:350px;
+    position:relative;
 }
 .social2{
-    position:absolute;
-    top:200px;
-    left:500px;
+    position:relative;
 }
 
 .venture{
-    position:absolute;
-    top:150px;
-    left:800px;
+    position:relative;
 }
 .capital{
-    position:absolute;
-    top:180px;
-    text-align: center;
-    right:150px;
+   position: relative;
 }
 .work{
-    position: absolute;
-    top:450px;
-    left:500px;
+   display: flex;
+    height:100vh;
+    flex-direction: column;
+   text-align: center;
+   
+   
+
 }
 .frame{
-    position:absolute;
-    top:600px;
-    left:60px;
+   position: relative;
+   left:-10rem;
+  
+   align-self: center;
     width:400px;
 }
 /* contact */
@@ -206,6 +207,7 @@ button:hover{
 /* footer */
 footer{
     position:relative;
+    display: flex;
     height:480px;
     color: white;
     background-color: black;
@@ -267,13 +269,226 @@ form{
     top:420px;
     right:100px;
 }
-@media(max-width:768px;){
-    body{width: 100%;
-    }
-
+.burger{
+    display: none;
 }
-@media(max-width:480px;){
-    body{width: 100%;
+@media(max-width:780px){
+   body{
+    overflow-x: hidden;
+   }
+    .what{
+        height:130vh;
+        gap:2rem;
+        
+    }
+    .do{
+        top:0;
+    }
+    .team{
+     
+      height:110vh;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color:black;
+        top: -3.5rem;
+        cursor: pointer;
+       
+        left: 0;
+        position: relative;
+        width: 109vw;
+        text-align: center;
+      }
+      li a{
+        color: #fff;
+      }
+      li a:hover{
+        color: aqua;
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+      
+      
+      .burger {
+        position: relative;
+        left:80%;
+        top:-3rem;
+        font-size: 3rem;
+        display: block;
+      }
+    
+    .our{
+        top:2rem;
+
+    }
+    .kendall h3{
+        top: 10px;
+        position: relative;
+    }
+    .investors{
+        height:180vh;
+        gap:2rem;
+    }
+    .work{
+       
+        height:60vh;
+    }
+    iframe{
+        left:40%;
+        position: relative;
+        height:30vh;
+        width:80vw;
+    }
+    .text{
+        font-size: 0.8rem;
+    }
+    .cont{
+        position: relative;
+        left:-10rem;
+
+    }
+    .contact{
+        height: 120vh;
+    }
+    .cont{
+        position: relative;
+        left:1rem;
+    }
+    .address{
+        position: relative;
+        left:1rem;
+        top:5rem;
+        
+    }
+    .monday{
+        position: relative;
+        top:3rem;
+        left:1rem;
+    }
+    .telephone{
+        left:1rem;
+        position: relative;
+        top:7rem;
+    }
+    .telephone h2,.address h2,.cont h1{
+        font-size: 1rem;
+    }
+    .tizeti{
+       
+        left:15%;
+        text-align: center;
+    
+    
+    }
+    .for{
+       
+        left:3.5rem;
     }
     
+    .twit{
+      
+        left:50%;
+    }
+    .fac{
+       
+        left:40%;
+    }
+    .lin{
+       
+        left:60%;
+    }
+    .copy{
+        left:2rem;
+    }
+
+    .text2{
+        font-size: 1rem;
+    }
+    form{
+        left:25%;
+    }
+    .email{
+        width:50vw;
+    }
+    .subs{
+        left:40%;
+    }
+    
+}
+@media(min-width:768px) and (max-width:1028px){
+    
+    body{
+       overflow-x: hidden;
+    }
+    .team{
+        height:110vh;
+    }
+    .venture,.capital{
+        position: relative;
+
+        top:-10rem;
+    }
+    .investors{
+        height: 100vh;
+    }
+    .work{
+        height: 120vh;
+    }
+    .address{
+        left:2rem;
+    }
+    .telephone{
+        right:2rem;
+    }
+    .telephone h2,.address h2,.cont h1{
+        font-size: 1rem;
+    }
+    
+    .cont,.monday{
+        left:25%;
+    }
+    .tizeti{
+       
+        left:34%;
+        text-align: center;
+    
+    
+    }
+    .for{
+       
+        left:18.5rem;
+    }
+    
+    .twit{
+      
+        left:50%;
+    }
+    .fac{
+       
+        left:40%;
+    }
+    .lin{
+       
+        left:60%;
+    }
+    .copy{
+        left:2rem;
+    }
+
+    .text2{
+        font-size: 1rem;
+    }
+    form{
+        left:25%;
+    }
+    .email{
+        width:50vw;
+    }
+    .subs{
+        left:40%;
+    }
 }
